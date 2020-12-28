@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="UI_Vkontakte" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3im-8D-l59">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcY-SH-3s4" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="498"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gwU-E7-6aW">
+                                                <rect key="frame" x="32" y="120" width="256" height="358"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ВКонтакте" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rs-Dy-yzS">
+                                                        <rect key="frame" x="24.5" y="0.0" width="207.5" height="48"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                                        <color key="textColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_VK" translatesAutoresizingMaskIntoConstraints="NO" id="ky9-Uo-Ds6">
+                                                        <rect key="frame" x="78" y="58" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="l7e-fT-iUT"/>
+                                                            <constraint firstAttribute="height" constant="100" id="vLD-q3-euE"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJt-dP-xsN">
+                                                        <rect key="frame" x="86.5" y="168" width="83" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pSq-wr-7Th">
+                                                        <rect key="frame" x="0.0" y="198.5" width="256" height="35"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="oIz-Pp-ndl"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NW2-Au-4Xb">
+                                                        <rect key="frame" x="89" y="243.5" width="78" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V6U-lZ-TVl">
+                                                        <rect key="frame" x="0.0" y="274" width="256" height="35"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDV-8u-b2o">
+                                                        <rect key="frame" x="101.5" y="319" width="53" height="39"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <state key="normal" title="Login"/>
+                                                        <connections>
+                                                            <action selector="didTapLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="juj-gI-X18"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="V6U-lZ-TVl" firstAttribute="width" secondItem="pSq-wr-7Th" secondAttribute="width" id="MR6-jm-s6c"/>
+                                                    <constraint firstItem="V6U-lZ-TVl" firstAttribute="height" secondItem="pSq-wr-7Th" secondAttribute="height" id="ite-dk-hpJ"/>
+                                                    <constraint firstItem="ky9-Uo-Ds6" firstAttribute="top" secondItem="8rs-Dy-yzS" secondAttribute="bottom" constant="10" id="pna-oJ-H9u"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="gwU-E7-6aW" firstAttribute="top" secondItem="DcY-SH-3s4" secondAttribute="top" constant="120" id="Aph-DZ-fJK"/>
+                                            <constraint firstItem="gwU-E7-6aW" firstAttribute="centerX" secondItem="DcY-SH-3s4" secondAttribute="centerX" id="UhH-Jy-jce"/>
+                                            <constraint firstAttribute="bottom" secondItem="gwU-E7-6aW" secondAttribute="bottom" constant="20" id="d4p-PK-efv"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="DcY-SH-3s4" secondAttribute="bottom" id="Pwi-bg-QX6"/>
+                                    <constraint firstAttribute="trailing" secondItem="DcY-SH-3s4" secondAttribute="trailing" id="gXR-hr-kpU"/>
+                                    <constraint firstItem="DcY-SH-3s4" firstAttribute="leading" secondItem="3im-8D-l59" secondAttribute="leading" id="lfN-Cf-ahp"/>
+                                    <constraint firstItem="DcY-SH-3s4" firstAttribute="top" secondItem="3im-8D-l59" secondAttribute="top" id="noX-51-5Vn"/>
+                                    <constraint firstItem="DcY-SH-3s4" firstAttribute="centerX" secondItem="3im-8D-l59" secondAttribute="centerX" id="pwk-hn-Rkt"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Uc5-xu-8f1"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3As-gP-rbU"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.64000352949999995" green="0.7843137255" blue="0.92613449800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3im-8D-l59" secondAttribute="trailing" id="0pN-tr-lvp"/>
+                            <constraint firstItem="3im-8D-l59" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C0W-Jw-YBn"/>
+                            <constraint firstItem="gwU-E7-6aW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="E5e-bq-8fO"/>
+                            <constraint firstItem="pSq-wr-7Th" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="Hht-iu-iDJ"/>
+                            <constraint firstItem="3im-8D-l59" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YBV-LD-CyG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3im-8D-l59" secondAttribute="bottom" id="b6T-Om-jra"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="V6U-lZ-TVl" id="L9A-YE-H60"/>
+                        <outlet property="scrollView" destination="3im-8D-l59" id="rHj-Ib-sqR"/>
+                        <outlet property="usernameTextField" destination="pSq-wr-7Th" id="XGs-e8-Fzd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-204.375" y="103.52112676056338"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_VK" width="300" height="302"/>
+    </resources>
+</document>
