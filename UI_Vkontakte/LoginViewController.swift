@@ -13,7 +13,6 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,6 +22,26 @@ class LoginViewController: UIViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+            let result = checkUserCredentials()
+            
+            if !result {
+                showAlert()
+            }
+        return result
+    }
+    
+    func checkUserCredentials() -> Bool {
+        return usernameTextField.text! == "admin" && passwordTextField.text! == "12345"
+    }
+    
+    func showAlert() {
+        let alert = UIAlertController(title: "Ошибка авторизации", message: "Неверный логин или пароль", preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        alert.addAction(alertAction)
+        present(alert, animated: true, completion: nil)
     }
     
     @objc func keyboardWillShow(notification: Notification) {
@@ -42,16 +61,17 @@ class LoginViewController: UIViewController {
     
     @IBAction func didTapLogin(_ sender: UIButton) {
         // Получаем текст логина
-        let login = usernameTextField.text!
-        // Получаем текст-пароль
-        let password = passwordTextField.text!
-        
-        // Проверяем, верны ли они
-        if login == "admin" && password == "12345" {
-            print("Успешная авторизация")
-        } else {
-            print("Неуспешная авторизация")
-        }
+//        let login = usernameTextField.text!
+//        // Получаем текст-пароль
+//        let password = passwordTextField.text!
+//
+//        // Проверяем, верны ли они
+//        if login == "admin" && password == "12345" {
+//            print("Успешная авторизация")
+//            performSegue(withIdentifier: "to_TabBarController", sender: nil)
+//        } else {
+//            print("Неуспешная авторизация")
+//        }
     }
     
 }
