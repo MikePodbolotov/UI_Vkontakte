@@ -42,6 +42,7 @@ class FriendsTableViewController: UITableViewController {
             cell.friendLabel.text = friends[indexPath.row]
             cell.friendImage.image = UIImage(named: "img_friends")
             cell.friendImage.layer.cornerRadius = cell.friendImage.frame.width / 2
+//            Тень не работает %(
             cell.friendImage.layer.shadowColor = UIColor.black.cgColor
             cell.friendImage.layer.shadowOpacity = 0.5
             cell.friendImage.layer.shadowRadius = 8

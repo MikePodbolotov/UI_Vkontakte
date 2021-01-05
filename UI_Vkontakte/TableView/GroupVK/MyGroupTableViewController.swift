@@ -30,7 +30,7 @@ class MyGroupTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? MyGroupTableViewCell {
-            
+            cell.myGroupLabel.text = groups[indexPath.row]
             return cell
         }
 
@@ -45,14 +45,29 @@ class MyGroupTableViewController: UITableViewController {
     }
     */
 
-    /*
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
+            groups.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
+
+    @IBAction func unwindFromTableViewController (_ segue: UIStoryboardSegue) {
+        
+        guard let tableViewController = segue.source as? AllGroupsTableViewController,
+              let indexPath = tableViewController.tableView.indexPathForSelectedRow else { return }
+        
+        let group = tableViewController.groups[indexPath.row]
+        
+        if groups.contains(group) { return }
+        
+        groups.append(group)
+        tableView.reloadData()
+    }
 }
+    
+

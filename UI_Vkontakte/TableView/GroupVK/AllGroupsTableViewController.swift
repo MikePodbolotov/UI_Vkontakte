@@ -9,6 +9,15 @@ import UIKit
 
 class AllGroupsTableViewController: UITableViewController {
 
+    let groups: [String] = [
+        "Moscow Never Sleep",
+        "Swift",
+        "1C-Rarus",
+        "Eve Echoes",
+        "PS5",
+        "Git"
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,25 +25,24 @@ class AllGroupsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+//    override func numberOfSections(in tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
+//    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return groups.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? AllGroupsTableViewCell {
+            cell.allGroupsLabel.text = groups[indexPath.row]
+            return cell
+        }
 
-        // Configure the cell...
-
-        return cell
+        return UITableViewCell()
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

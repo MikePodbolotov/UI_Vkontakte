@@ -19,8 +19,8 @@
 		C477B2E525A3BFB200366191 /* AllGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2E425A3BFB200366191 /* AllGroupsTableViewController.swift */; };
 		C477B2E825A3C0B800366191 /* MyGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2E725A3C0B800366191 /* MyGroupTableViewCell.swift */; };
 		C477B2EF25A3C27800366191 /* AllGroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2EE25A3C27800366191 /* AllGroupsTableViewCell.swift */; };
-		C477B2F525A3C5E600366191 /* StructFriens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2F425A3C5E600366191 /* StructFriens.swift */; };
-		C477B2F825A3C60400366191 /* StructGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2F725A3C60400366191 /* StructGroups.swift */; };
+		C477B2F525A3C5E600366191 /* StructFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2F425A3C5E600366191 /* StructFriend.swift */; };
+		C477B2F825A3C60400366191 /* StructGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2F725A3C60400366191 /* StructGroup.swift */; };
 		C496FBAC259F756E0008989C /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496FBAB259F756E0008989C /* FriendCollectionViewCell.swift */; };
 		C496FBAF259F7A2A0008989C /* FriendCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496FBAE259F7A2A0008989C /* FriendCollectionViewController.swift */; };
 /* End PBXBuildFile section */
@@ -40,8 +40,8 @@
 		C477B2E425A3BFB200366191 /* AllGroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsTableViewController.swift; sourceTree = "<group>"; };
 		C477B2E725A3C0B800366191 /* MyGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupTableViewCell.swift; sourceTree = "<group>"; };
 		C477B2EE25A3C27800366191 /* AllGroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsTableViewCell.swift; sourceTree = "<group>"; };
-		C477B2F425A3C5E600366191 /* StructFriens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructFriens.swift; sourceTree = "<group>"; };
-		C477B2F725A3C60400366191 /* StructGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructGroups.swift; sourceTree = "<group>"; };
+		C477B2F425A3C5E600366191 /* StructFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructFriend.swift; sourceTree = "<group>"; };
+		C477B2F725A3C60400366191 /* StructGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructGroup.swift; sourceTree = "<group>"; };
 		C496FBAB259F756E0008989C /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
 		C496FBAE259F7A2A0008989C /* FriendCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,8 +131,8 @@
 		C4C624B025A33EBA0059B36F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C477B2F425A3C5E600366191 /* StructFriens.swift */,
-				C477B2F725A3C60400366191 /* StructGroups.swift */,
+				C477B2F425A3C5E600366191 /* StructFriend.swift */,
+				C477B2F725A3C60400366191 /* StructGroup.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,9 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C477B2F825A3C60400366191 /* StructGroups.swift in Sources */,
+				C477B2F825A3C60400366191 /* StructGroup.swift in Sources */,
 				C496FBAC259F756E0008989C /* FriendCollectionViewCell.swift in Sources */,
-				C477B2F525A3C5E600366191 /* StructFriens.swift in Sources */,
+				C477B2F525A3C5E600366191 /* StructFriend.swift in Sources */,
 				C43551842599260100C4EF30 /* LoginViewController.swift in Sources */,
 				C477B2E525A3BFB200366191 /* AllGroupsTableViewController.swift in Sources */,
 				C477B2E225A3BFA100366191 /* MyGroupTableViewController.swift in Sources */,
