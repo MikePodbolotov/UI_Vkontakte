@@ -7,8 +7,9 @@
 
 import UIKit
 
-@IBDesignable
-class GradientView: UIView {
+let cornerRadius: CGFloat = 2
+
+@IBDesignable class GradientView: UIView {
 
     @IBInspectable var topColor: UIColor = #colorLiteral(red: 0.3375923038, green: 0.7577283978, blue: 0.9999999404, alpha: 1) {
         didSet {
@@ -31,4 +32,47 @@ class GradientView: UIView {
         layer.insertSublayer(gradientLayer, at: 0)
     }
 
+}
+
+class RoundedImage: UIImageView {
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        layer.cornerRadius = frame.width / cornerRadius
+        layer.masksToBounds = true
+    }
+}
+
+@IBDesignable class Shadow: UIView {
+    
+    @IBInspectable var color: UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1) {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
+    @IBInspectable var opacity: Float = 0.5 {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
+    @IBInspectable var radius: CGFloat = 20 {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        layer.shadowColor = color.cgColor
+        layer.shadowOpacity = opacity
+        layer.shadowRadius = radius
+        layer.shadowOffset = CGSize.zero
+        
+        layer.cornerRadius = frame.width / cornerRadius
+        layer.masksToBounds = false
+    }
 }

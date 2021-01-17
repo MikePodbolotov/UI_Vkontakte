@@ -23,6 +23,8 @@
 		C477B2F825A3C60400366191 /* StructGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2F725A3C60400366191 /* StructGroup.swift */; };
 		C496FBAC259F756E0008989C /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496FBAB259F756E0008989C /* FriendCollectionViewCell.swift */; };
 		C496FBAF259F7A2A0008989C /* FriendCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496FBAE259F7A2A0008989C /* FriendCollectionViewController.swift */; };
+		C4AE2E4525B476E40035EC07 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE2E4425B476E40035EC07 /* ProfileViewController.swift */; };
+		C4AE2E4825B47DA80035EC07 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE2E4725B47DA80035EC07 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		C477B2F725A3C60400366191 /* StructGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructGroup.swift; sourceTree = "<group>"; };
 		C496FBAB259F756E0008989C /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
 		C496FBAE259F7A2A0008989C /* FriendCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewController.swift; sourceTree = "<group>"; };
+		C4AE2E4425B476E40035EC07 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C4AE2E4725B47DA80035EC07 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +86,12 @@
 				C435516C2599254700C4EF30 /* AppDelegate.swift */,
 				C435516E2599254700C4EF30 /* SceneDelegate.swift */,
 				C43551722599254700C4EF30 /* Main.storyboard */,
+				C4AE2E4725B47DA80035EC07 /* SettingsView.swift */,
 				C43551752599254800C4EF30 /* Assets.xcassets */,
 				C43551772599254800C4EF30 /* LaunchScreen.storyboard */,
 				C435517A2599254800C4EF30 /* Info.plist */,
 				C43551832599260100C4EF30 /* LoginViewController.swift */,
+				C4AE2E4425B476E40035EC07 /* ProfileViewController.swift */,
 			);
 			path = UI_Vkontakte;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 				C496FBAC259F756E0008989C /* FriendCollectionViewCell.swift in Sources */,
 				C477B2F525A3C5E600366191 /* StructFriend.swift in Sources */,
 				C43551842599260100C4EF30 /* LoginViewController.swift in Sources */,
+				C4AE2E4525B476E40035EC07 /* ProfileViewController.swift in Sources */,
 				C477B2E525A3BFB200366191 /* AllGroupsTableViewController.swift in Sources */,
 				C477B2E225A3BFA100366191 /* MyGroupTableViewController.swift in Sources */,
 				C435516D2599254700C4EF30 /* AppDelegate.swift in Sources */,
@@ -220,6 +227,7 @@
 				C435516F2599254700C4EF30 /* SceneDelegate.swift in Sources */,
 				C477B2EF25A3C27800366191 /* AllGroupsTableViewCell.swift in Sources */,
 				C496FBAF259F7A2A0008989C /* FriendCollectionViewController.swift in Sources */,
+				C4AE2E4825B47DA80035EC07 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

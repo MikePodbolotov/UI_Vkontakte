@@ -22,5 +22,5 @@ class FriendsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var friendLabel: UILabel!
     @IBOutlet weak var friendImage: UIImageView!
-    
+    @IBOutlet weak var friendStatusLabel: UILabel!
 }

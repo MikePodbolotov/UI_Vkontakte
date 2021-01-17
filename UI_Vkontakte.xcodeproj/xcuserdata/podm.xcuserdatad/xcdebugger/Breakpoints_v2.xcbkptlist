@@ -132,5 +132,145 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC07D491-4670-45D3-BCD0-1CE9A9FB5128"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_Vkontakte/SettingsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "Shadow"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA549918-FE34-4D35-BEE8-572E9A9D3CDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_Vkontakte/SettingsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "color"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "FA549918-FE34-4D35-BEE8-572E9A9D3CDE - e5ef937949ce6fb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.Shadow.color.getter : __C.UIColor"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/SettingsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "FA549918-FE34-4D35-BEE8-572E9A9D3CDE - 9931c69796d64bb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.Shadow.color.setter : __C.UIColor"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/SettingsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "175">
+               </Location>
+               <Location
+                  uuid = "FA549918-FE34-4D35-BEE8-572E9A9D3CDE - a8d6611e1fc67bbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.Shadow.color.modify : __C.UIColor"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/SettingsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "FA549918-FE34-4D35-BEE8-572E9A9D3CDE - e83fcef0f6524ab9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.Shadow.color.modify : __C.UIColor with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/SettingsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "FA549918-FE34-4D35-BEE8-572E9A9D3CDE - 5625bf8da0e4a6bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.Shadow.init(frame: __C.CGRect) -&gt; UI_Vkontakte.Shadow"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/SettingsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  uuid = "FA549918-FE34-4D35-BEE8-572E9A9D3CDE - b21fceadb0526a97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.Shadow.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UI_Vkontakte.Shadow&gt;"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/SettingsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADCDDBEC-6B25-4F92-BAE0-27BF7CEF54A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
