@@ -9,7 +9,7 @@ import UIKit
 
 let cornerRadius: CGFloat = 2
 
-@IBDesignable class GradientView: UIView {
+class GradientView: UIView {
 
     @IBInspectable var topColor: UIColor = #colorLiteral(red: 0.3375923038, green: 0.7577283978, blue: 0.9999999404, alpha: 1) {
         didSet {
@@ -44,7 +44,7 @@ class RoundedImage: UIImageView {
     }
 }
 
-@IBDesignable class Shadow: UIView {
+class Shadow: UIView {
     
     @IBInspectable var color: UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1) {
         didSet {

@@ -11,9 +11,11 @@ private let reuseIdentifier = "Cell"
 
 class FriendCollectionViewController: UICollectionViewController {
 
+    var friend: Friend!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "\(friend.lastName) \(friend.name)"
     }
 
     // MARK: UICollectionViewDataSource
@@ -26,13 +28,13 @@ class FriendCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 1
+        return 3
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as? FriendCollectionViewCell {
-            cell.nameFriendLabel.text = "Друг \(indexPath.row)"
-            cell.friendImage.image = UIImage(systemName: "sun.max")
+            let avatar = friend.avatar != "" ? friend.avatar : "img_friends"
+            cell.friendImage.image = UIImage(named: avatar)
             return cell
         }
     
