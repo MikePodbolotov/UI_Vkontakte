@@ -1,14 +1,17 @@
 //
-//  FriendsTableViewCell.swift
+//  AllGroupsTableViewCell.swift
 //  UI_Vkontakte
 //
-//  Created by Михаил Подболотов on 01.01.2021.
+//  Created by Михаил Подболотов on 05.01.2021.
 //
 
 import UIKit
 
-class FriendsTableViewCell: UITableViewCell {
+class AllGroupsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var allGroupsLabel: UILabel!
+    @IBOutlet weak var allGroupsImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,8 +22,5 @@ class FriendsTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
-    @IBOutlet weak var friendLabel: UILabel!
-    @IBOutlet weak var friendImage: UIImageView!
-    @IBOutlet weak var friendStatusLabel: UILabel!
+
 }

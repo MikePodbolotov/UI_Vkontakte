@@ -34,7 +34,7 @@ class LoginViewController: UIViewController {
     }
     
     func checkUserCredentials() -> Bool {
-        return usernameTextField.text! == "admin" && passwordTextField.text! == "12345"
+        return usernameTextField.text! == "" && passwordTextField.text! == ""
     }
     
     func showAlert() {
