@@ -266,8 +266,8 @@
             filePath = "UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,8 +282,8 @@
             filePath = "UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -298,8 +298,8 @@
             filePath = "UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,8 +330,8 @@
             filePath = "UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,8 +346,8 @@
             filePath = "UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -378,9 +378,196 @@
             filePath = "UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D979EF25-7423-47FA-886A-E203A5D86424"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "FriendsTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D979EF25-7423-47FA-886A-E203A5D86424 - d39bee6f7faa475f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.FriendsTableViewController.chosenFriend.getter : Swift.Optional&lt;UI_Vkontakte.Friend&gt;"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "D979EF25-7423-47FA-886A-E203A5D86424 - 378a15e56c46f23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.FriendsTableViewController.chosenFriend.setter : Swift.Optional&lt;UI_Vkontakte.Friend&gt;"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "310">
+               </Location>
+               <Location
+                  uuid = "D979EF25-7423-47FA-886A-E203A5D86424 - 3787bbe57a670f27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.FriendsTableViewController.chosenFriend.modify : Swift.Optional&lt;UI_Vkontakte.Friend&gt;"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "D979EF25-7423-47FA-886A-E203A5D86424 - 78abd5a2efe62ed1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.FriendsTableViewController.chosenFriend.modify : Swift.Optional&lt;UI_Vkontakte.Friend&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "D979EF25-7423-47FA-886A-E203A5D86424 - cb283a8de678fec6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.FriendsTableViewController.init(style: __C.UITableViewStyle) -&gt; UI_Vkontakte.FriendsTableViewController"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "526">
+               </Location>
+               <Location
+                  uuid = "D979EF25-7423-47FA-886A-E203A5D86424 - 82c74485baee9d60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.FriendsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UI_Vkontakte.FriendsTableViewController"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "565">
+               </Location>
+               <Location
+                  uuid = "D979EF25-7423-47FA-886A-E203A5D86424 - bc9a6594253e00c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UI_Vkontakte.FriendsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UI_Vkontakte.FriendsTableViewController&gt;"
+                  moduleName = "UI_Vkontakte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/podm/Swift%20Project/Geekbrains/GB%201.2_UI/UI_Vkontakte/UI_Vkontakte/TableView/Friends/FriendsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "506">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "290DCE2E-B63C-4EAE-83EB-2F0A59446455"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_Vkontakte/FriendsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9126ABD-481F-44F0-A758-BB50060B7D61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_Vkontakte/FriendsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C89DC8D-5A7D-43E4-9A30-3D13C9D20B90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_Vkontakte/FriendsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1598E859-E766-4E27-91B2-A32CF0E08006"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UI_Vkontakte/FriendsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
